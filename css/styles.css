@@ -1,0 +1,113 @@
+
+a{
+  text-decoration: none;
+}
+.list{
+  list-style: none;
+}
+/* header */
+
+.logo:hover, 
+.logo:focus{
+    color: #2196F3;
+}
+.part-1{
+    color: #2196F3;
+}
+.part-2{
+    color: black;
+}
+
+.site-nav .link{
+  color: black;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus{
+  color: #2196F3; 
+}
+.contact-list{
+  color: #757575;
+}
+
+.contact .link:hover,
+.contact .link:focus{
+  color: #2196F3;
+}
+
+/* footer */
+
+.footer{
+  background: #2F303A;
+}
+.logo:hover, 
+.logo:focus{
+    color: #2196F3;
+}
+.part-1-f{
+    color: #2196F3;
+}
+.part-2-f{
+    color: #ffffff;
+}
+.adress{
+  color: #FFFFFF;
+}
+.contact-f{
+  color: rgba(255, 255, 255, 0.6);
+}
+.article{
+  color: #ffffff;
+}
+.caption{
+  color: rgba(255, 255, 255, 0.4);
+}
+.input-text{
+  color: rgba(255, 255, 255, 0.6);
+  background: #2F303A;
+}
+.input-submit{
+  color: #ffffff;
+  background: #2196F3;
+}
+/* main page*/ 
+
+.section{
+  color: #212121;
+}
+
+.section .img:hover,
+.section .img:focus{
+    background-color: #2196F3;
+}
+.title{
+  color: black;
+}
+.comment{
+  color: #757575;
+}
+.service{
+  color: #ffffff;
+  background: rgba(47, 48, 58, 0.8); 
+}
+.person{
+  color: #212121;
+}
+.job{
+  color: #757575;
+}
+
+/* portfolio */ 
+
+.button:hover,
+.button:focus{
+  color: #ffffff;
+  background: #2196F3;
+}
+
+.example{
+  color: #212121;
+}
+.type{
+  color: #757575;
+}
