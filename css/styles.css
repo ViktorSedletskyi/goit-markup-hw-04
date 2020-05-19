@@ -7,6 +7,10 @@ a{
 }
 /* header */
 
+.main-nav {
+  display: flex;
+  align-items: center;
+}
 .logo:hover, 
 .logo:focus{
     color: #2196F3;
@@ -17,9 +21,20 @@ a{
 .part-2{
     color: black;
 }
-
+.site-nav {
+  display: flex;
+  margin-left: 70px;
+} 
 .site-nav .link{
+  display: block;
+  padding-top: 21px;
+  padding-bottom: 21px;
+
   color: black;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.2;
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
