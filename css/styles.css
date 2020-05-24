@@ -1,47 +1,52 @@
 
-a{
+body{
+  font-family: Roboto, sans-serif;
+  color: #212121;
+}
+h2{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+a {
   text-decoration: none;
 }
-.list{
+
+ul{
   list-style: none;
 }
+ 
 /* header */
 
-.main-nav {
-  display: flex;
-  align-items: center;
+.logo{
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
-.logo:hover, 
-.logo:focus{
-    color: #2196F3;
-}
-.part-1{
-    color: #2196F3;
-}
-.part-2{
-    color: black;
-}
-.site-nav {
-  display: flex;
-  margin-left: 70px;
-} 
+
 .site-nav .link{
-  display: block;
-  padding-top: 21px;
-  padding-bottom: 21px;
-
-  color: black;
+ 
   font-weight: 500;
-  font-size: 15px;
-  line-height: 1.2;
-  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
-
+.site-nav .link.current{
+  color: #2196F3;
+}
 .site-nav .link:hover,
 .site-nav .link:focus{
   color: #2196F3; 
 }
 .contact-list{
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: #757575;
 }
 
@@ -55,65 +60,124 @@ a{
 .footer{
   background: #2F303A;
 }
-.logo:hover, 
-.logo:focus{
-    color: #2196F3;
+.logo-f{
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.18;
+  letter-spacing: 0.03em; 
 }
-.part-1-f{
-    color: #2196F3;
-}
-.part-2-f{
-    color: #ffffff;
-}
+
+
 .adress{
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: #FFFFFF;
 }
 .contact-f{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .article{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #ffffff;
 }
 .caption{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.4);
 }
-.input-text{
-  color: rgba(255, 255, 255, 0.6);
-  background: #2F303A;
-}
-.input-submit{
-  color: #ffffff;
-  background: #2196F3;
-}
+
 /* main page*/ 
+/*Студия*/
 
-.section{
-  color: #212121;
+.syllable{
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
 
-.section .img:hover,
-.section .img:focus{
-    background-color: #2196F3;
+.button-service{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+  background: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.img:hover{
+  background-color: #2196F3;
 }
 .title{
-  color: black;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
 }
 .comment{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: #757575;
 }
 .service{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #ffffff;
-  background: rgba(47, 48, 58, 0.8); 
+  background: rgba(47, 48, 58, 0.8);
+  border-radius: 0px 0px 4px 4px;
 }
 .person{
-  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .job{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
   color: #757575;
 }
 
 /* portfolio */ 
 
+.button{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 .button:hover,
 .button:focus{
   color: #ffffff;
@@ -121,8 +185,15 @@ a{
 }
 
 .example{
-  color: #212121;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 .type{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
   color: #757575;
 }
