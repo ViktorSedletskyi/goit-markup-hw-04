@@ -77,9 +77,6 @@ header{
   color: #2196F3; 
 }
 
-.contact .item + .item {
-  margin-left: 30px;
-}
 .contact{
   display: flex;
   margin-left: auto;
@@ -89,9 +86,39 @@ header{
   letter-spacing: 0.02em;
   color: #757575;
 }
+.contact .item + .item {
+  margin-left: 30px;
+}
+.contact-link {
+  display: flex;
 
-.contact .link:hover,
-.contact .link:focus{
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.contact-link::before {
+  content: "";
+  width: 16px;
+  height: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 10px;
+}
+
+.contact-envelope::before {
+  background-image: url(../images/envelope.svg);
+}
+
+.contact-phone::before {
+  background-image: url(../images/smartphone.svg);
+}
+
+.contact .contact-link:hover,
+.contact .contact-link:focus{
   color: #2196F3;
 }
 
@@ -188,11 +215,27 @@ header{
 /* hero */
 
 .hero {
-  align-items: center;
-  text-align: center;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url(../images/fon.jpg);
+  background-color: var(--bg-footer);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero .container {
+  height: 600px;
   padding-top: 200px;
-  background-color: rgba(47, 48, 58, 0.8);
-  /* background-image: url(../images/fon.jpg); */
+  padding-bottom: 200px;
+  text-align: center;
 }
 .syllable{
   margin-top: 0;
@@ -250,10 +293,7 @@ header{
   background: #F5F4FA;
   border-radius: 4px;
 }
-.skills .img:hover{
-  background-color: #2196F3;
-  border-radius: 4px;
-}
+
 .title{
   margin: 0 0 10px;
   font-weight: 700;
