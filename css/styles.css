@@ -76,15 +76,13 @@ header{
 .site-nav .link:focus{
   color: #2196F3; 
 }
-.contact {
-  display: flex;
-  margin-left: auto;
-}
+
 .contact .item + .item {
   margin-left: 30px;
 }
 .contact{
-
+  display: flex;
+  margin-left: auto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -106,7 +104,7 @@ header{
   display: flex;
 }
 .adress-main{
-  margin: 48px 179px 28px 0;
+  margin: 48px 69px 28px 0;
 }
 
 .connect {
@@ -167,7 +165,7 @@ header{
 
 .subscribe {
   align-items: center;
-  margin-left: auto;
+  margin-left: 155px;
   padding-top: 56px;
   padding-bottom: 50px;
 }
