@@ -116,6 +116,9 @@ header{
 .contact-phone::before {
   background-image: url(../images/smartphone.svg);
 }
+.contact-phone{
+ margin-left: 30px; 
+}
 
 .contact .contact-link:hover,
 .contact .contact-link:focus{
@@ -234,7 +237,6 @@ header{
 .hero .container {
   height: 600px;
   padding-top: 200px;
-  padding-bottom: 200px;
   text-align: center;
 }
 .syllable{
