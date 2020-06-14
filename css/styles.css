@@ -77,54 +77,33 @@ header{
   color: #2196F3; 
 }
 
-.contact{
-  display: flex;
-  margin-left: auto;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #757575;
-}
 .contact .item + .item {
   margin-left: 30px;
 }
-.contact-link {
+.contact {
   display: flex;
+  margin-left: auto;
 
-  color: #757575;
+}
+.contact .link{
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
+  color: #757575;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.contact-link::before {
-  content: "";
-  width: 16px;
-  height: 15px;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-right: 10px;
-}
-
-.contact-envelope::before {
-  background-image: url(../images/envelope.svg);
-}
-
-.contact-phone::before {
-  background-image: url(../images/smartphone.svg);
-}
-.contact-phone{
- margin-left: 30px; 
-}
-
-.contact .contact-link:hover,
-.contact .contact-link:focus{
+.contact .link:hover,
+.contact .link:focus{
   color: #2196F3;
 }
-
+.icon-adres-nav{
+  margin-right: 10px;
+}
 /* footer */
 
 .footer{
@@ -218,31 +197,25 @@ header{
 /* hero */
 
 .hero {
-  max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
-
+  align-items: center;
+  text-align: center;
+  padding-top: 200px;
+  height: 600px;
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.8),
       rgba(47, 48, 58, 0.8)
     ),
     url(../images/fon.jpg);
-  background-color: var(--bg-footer);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-
-.hero .container {
-  height: 600px;
-  padding-top: 200px;
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .syllable{
   margin-top: 0;
-  margin-bottom: 0;
-
+  margin-bottom: 40px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -255,8 +228,7 @@ header{
 .button-service{
   display: inline-block;
   min-width: 136px;
-  padding: 10px 32px;
-
+  padding: 10px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -266,34 +238,31 @@ header{
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-.hero .around-button-service {
-  padding-top: 46px;
-  padding-bottom: 210px;
-}
 
 /* skills */
 
 .skills-main{
   padding-top: 94px; 
+  padding-bottom: 94px;
 }
+
 .skills{
   display: flex;
   align-items: center;
-
-  padding-bottom: 94px;
-  border-bottom: 1px solid #ececec;
 }
 
 .skills .item + .item {
   margin-left: 30px;
 }
-.skills img {
+.img-skill {
   display: inline-block;
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
   background: #F5F4FA;
   border-radius: 4px;
+  align-items: center;
+  justify-content: center;
 }
 
 .title{
@@ -327,10 +296,10 @@ header{
   padding-top: 94px;
 }
 
-.service image{
+.image{
   display: block;
   margin: 0px;
-  padding: 27px;  
+  padding: auto;  
 }
 
 .name {
@@ -350,11 +319,12 @@ header{
 /* team */ 
 .taem-main{
   padding-top: 94px;
+  padding-bottom: 94px;
   background: #F5F4FA;
 }
 .team {
   display: flex;
-  padding-bottom: 94px;
+
 }
 .team .item + .item {
   margin-left: 30px;
@@ -374,8 +344,8 @@ header{
 }
 .person{
   margin: 0;
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -384,7 +354,7 @@ header{
 }
 .job{
   margin: 0;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -412,7 +382,7 @@ header{
 .client {
   display: flex;
   justify-content: center;
-  padding-bottom: 94px;
+ 
 }
 .client img{
   width: 170px;
@@ -429,6 +399,7 @@ header{
 }
 .client-main{
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 
@@ -436,6 +407,10 @@ header{
 
 /* portfolio */ 
 
+section{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .menu {
   justify-content: center;
   display: flex;
@@ -443,7 +418,6 @@ header{
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  padding-top: 94px;
   margin-bottom: 50px;
   list-style: none;
 }
@@ -468,7 +442,6 @@ header{
     display: flex;
     padding-left: 0;
     flex-wrap: wrap;
-    padding-bottom: 94px;
     margin-bottom: 0;
     margin-top: 0;
     margin-left: -15px;
