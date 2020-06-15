@@ -100,7 +100,8 @@ header{
   margin-right: 10px;
 }
 .contact .link:hover,
-.contact .link:focus{
+.contact .link:focus
+.contact .icon-adres-nav{
   color: #2196F3;
 }
 
