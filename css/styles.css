@@ -105,6 +105,7 @@ header{
 .contact .icon-adres-nav:hover
 .contact .icon-adres-nav:focus{
   color: #2196F3;
+  --color3: #2196F3;
 }
 
 /* footer */
