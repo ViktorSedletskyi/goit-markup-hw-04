@@ -96,14 +96,14 @@ header{
   justify-content: center;
   align-items: center;
 }
-
+.icon-adres-nav{
+  margin-right: 10px;
+}
 .contact .link:hover,
 .contact .link:focus{
   color: #2196F3;
 }
-.icon-adres-nav{
-  margin-right: 10px;
-}
+
 /* footer */
 
 .footer{
