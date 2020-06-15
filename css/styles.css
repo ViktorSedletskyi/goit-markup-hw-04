@@ -45,6 +45,9 @@ header{
   display: flex;
   align-items: center;
 }
+.main-nav a:hover{
+    color: #2196F3;
+}
 .logo{
   margin-right: 86px;
   font-family: Raleway, sans-serif;
@@ -99,11 +102,7 @@ header{
 .icon-adres-nav{
   margin-right: 10px;
 }
-.contact .link:hover,
-.contact .link:focus
-.contact .icon-adres-nav{
-  color: #2196F3;
-}
+
 
 /* footer */
 
