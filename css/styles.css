@@ -380,6 +380,19 @@ header{
 .team .social {
   padding-bottom: 24px;
 }
+.img-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  }
+.img-social:hover,
+.img-social:focus{
+  border-radius: 50%;
+  background-color: #2196f3;
+  --color4: #ffffff;
+}
 
 /*clients*/
 
