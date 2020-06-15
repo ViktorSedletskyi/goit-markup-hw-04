@@ -101,11 +101,9 @@ header{
   margin-right: 10px;
 }
 .contact .link:hover,
-.contact .link:focus,
-.contact .icon-adres-nav:hover
-.contact .icon-adres-nav:focus{
+.contact .link:focus{
   color: #2196F3;
-  --color3: #2196F3;
+  fill: #2196F3;
 }
 
 /* footer */
