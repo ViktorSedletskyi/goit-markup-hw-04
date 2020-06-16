@@ -103,7 +103,7 @@ header{
 .contact .link:hover,
 .contact .link:focus{
   color: #2196F3;
-  fill: #2196F3;
+--color3: #2196F3;
 }
 
 /* footer */
@@ -172,7 +172,10 @@ header{
   margin-left: 10px;
 }
 .social .link {
-    background: rgba(255, 255, 255, 0.1);}
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+  }
+
 
 .subscribe {
   align-items: center;
@@ -403,10 +406,7 @@ header{
   justify-content: center;
  
 }
-.client img{
-  width: 170px;
-  height: 90px;
-}
+
 .client .img {
   
   border: 1px solid #afb1b8;
@@ -420,7 +420,18 @@ header{
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
+.client .item:hover,
+.client .item:focus {
+  border: 1px solid #2196f3;;
+  --color4: #2196f3;;
+}
+.img-client {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 90px;
+}
 
 
 
