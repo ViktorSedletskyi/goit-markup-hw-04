@@ -220,7 +220,7 @@ input {
   text-align: center;
   letter-spacing: 0.06em;
 }
-.button::after {
+.button-f::after {
   content: ' ';
   background-image: url(../images/iconsend.svg);
   background-repeat: no-repeat;
