@@ -423,7 +423,7 @@ header{
 .client .item:hover,
 .client .item:focus {
   border: 1px solid #2196f3;;
-  --color4: #2196f3;;
+  fill: #2196f3;;
 }
 .img-client {
   display: flex;
