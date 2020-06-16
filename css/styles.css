@@ -198,7 +198,11 @@ input {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
+<<<<<<< HEAD
 .button-f{
+=======
+.button-f {
+>>>>>>> b7ef58cd75cd2f6865170d5d5c8d1728bc3af9d3
   margin-left: 12px;
   display: inline-block;
   padding: 10px 28px;
