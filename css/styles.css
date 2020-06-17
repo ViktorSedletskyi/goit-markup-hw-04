@@ -466,8 +466,8 @@ input {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.client .item:hover,
-.client .item:focus {
+.client .img:hover,
+.client .img:focus {
   border: 1px solid #2196f3;
 --color4: #2196f3;
 }
