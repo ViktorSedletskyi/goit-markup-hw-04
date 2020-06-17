@@ -384,7 +384,9 @@ input {
 .team .item + .item {
   margin-left: 30px;
 }
-
+.team .item:not(:first-child) {
+  margin-left: auto;
+}
 .team .item{
   overflow: hidden;
   background-color: #FFFFFF;
